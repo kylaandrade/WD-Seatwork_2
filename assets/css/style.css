@@ -108,3 +108,7 @@ ul li {
     vertical-align: middle;
     margin-right: 10px;
 }
+
+.right-side .section:last-child {
+    margin-bottom: 20px;
+}

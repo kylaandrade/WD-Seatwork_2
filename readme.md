@@ -14,7 +14,7 @@
 </div>
 
 <br />
-(https://visit-counter.vercel.app/counter.png?page=kylaandrade/WD-Template-Seatwork_2)
+[](https://visit-counter.vercel.app/counter.png?page=kylaandrade/WD-Template-Seatwork_2)
 
 ---
 
