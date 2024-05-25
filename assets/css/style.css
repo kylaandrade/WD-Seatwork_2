@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Dev */
+header,
+header * {
+    /* outline: 1px rgb(255, 0, 0) dashed; */
+}
+
+
+/* Dep */
+body {
+    padding: 0 1rem;
+}
+
+header {
+    height: calc(100vh - 4rem - 2rem);
+    width: calc(35% - 4rem - 2rem);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: black;
+    position: fixed;
+
+    & > .top {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+
+        & > img {
+            border-radius: 50%;
+            height: 10rem;
+            width: 10rem;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        & > h4 {
+            font-weight: 900;
+            font-size: 1.3rem;
+        }
+
+        & > a {
+            color: rgb(201, 201, 201);
+
+            & > p > span {
+                font-weight: 900;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    & > .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        & > a {
+            text-decoration: none;
+            font-size: 1.3rem;
+            color: aliceblue;
+            transition: .3s ease-out;
+            font-weight: 400;
+    
+            & > p {
+                padding: .4rem;
+                border-radius: 10px;
+            }
+
+            &:hover {
+                transform: scale(1.1) translate(5px, -5px);
+                font-weight: 900;
+            }
+        }
+    }
+
+}
