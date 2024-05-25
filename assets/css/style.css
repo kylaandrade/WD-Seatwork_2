@@ -13,6 +13,7 @@ header * {
 /* Dep */
 body {
     padding: 0 1rem;
+    background-color: #D1C4E9;
 }
 
 header {
@@ -21,11 +22,11 @@ header {
     margin: 2rem;
     padding: 1rem;
     border-radius: 10px;
-    background: black;
+    background: #B39DDB;
     position: fixed;
 
     & > .top {
-        color: aliceblue;
+        color: rgb(30, 30, 52);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -45,7 +46,7 @@ header {
         }
 
         & > a {
-            color: rgb(201, 201, 201);
+            color: rgb(30, 30, 52);
 
             & > p > span {
                 font-weight: 900;
@@ -62,7 +63,7 @@ header {
         & > a {
             text-decoration: none;
             font-size: 1.3rem;
-            color: aliceblue;
+            color: rgb(30, 30, 52);
             transition: .3s ease-out;
             font-weight: 400;
     
