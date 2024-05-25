@@ -1,82 +1,43 @@
-* {
-    padding: 0;
+html, body {
+    height: 100%;
     margin: 0;
+    padding: 0;
+    background-color: #E6E6FA;
+    font-family: Arial, sans-serif;
 }
 
-/* Dev */
-header,
-header * {
-    /* outline: 1px rgb(255, 0, 0) dashed; */
-}
-
-
-/* Dep */
 body {
-    padding: 0 1rem;
-    background-color: #D1C4E9;
+    display: flex;
 }
 
-header {
-    height: calc(100vh - 4rem - 2rem);
-    width: calc(35% - 4rem - 2rem);
-    margin: 2rem;
-    padding: 1rem;
-    border-radius: 10px;
-    background: #B39DDB;
-    position: fixed;
-
-    & > .top {
-        color: rgb(30, 30, 52);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-
-        & > img {
-            border-radius: 50%;
-            height: 10rem;
-            width: 10rem;
-            object-fit: cover;
-            margin-bottom: 1rem;
-        }
-
-        & > h4 {
-            font-weight: 900;
-            font-size: 1.3rem;
-        }
-
-        & > a {
-            color: rgb(30, 30, 52);
-
-            & > p > span {
-                font-weight: 900;
-                font-size: 1.3rem;
-            }
-        }
-    }
-
-    & > .bottom {
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-
-        & > a {
-            text-decoration: none;
-            font-size: 1.3rem;
-            color: rgb(30, 30, 52);
-            transition: .3s ease-out;
-            font-weight: 400;
-    
-            & > p {
-                padding: .4rem;
-                border-radius: 10px;
-            }
-
-            &:hover {
-                transform: scale(1.1) translate(5px, -5px);
-                font-weight: 900;
-            }
-        }
-    }
-
+.container {
+    display: flex;
+    width: 100%;
+    flex: 1;
 }
+
+.left-side {
+    background-color: #B39EB5;
+    width: 30%;
+    height: 180%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+
+.icon {
+    width: 20px;
+    height: 20px;
+  }
