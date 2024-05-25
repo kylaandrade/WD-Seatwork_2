@@ -14,7 +14,7 @@
 </div>
 
 <br />
-https://visit-counter.vercel.app/counter.png?page=kylaandrade/WD-Template-Seatwork_2
+(https://visit-counter.vercel.app/counter.png?page=kylaandrade/WD-Template-Seatwork_2)
 
 ---
 
@@ -56,7 +56,6 @@ The purpose of this project is to create a responsive and visually-appealing onl
 - CSS Styling
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -65,4 +64,7 @@ The purpose of this project is to create a responsive and visually-appealing onl
 
 | Title | Purpose | Link |
 |-|-|-|
-| Logo | Logo for the ReadMe | https://www.canva.com |
+| Logo | Logo for the ReadMe |               https://www.canva.com               |
+| Icon | Icon for Phone No.  |         https://www.freepik.com/icons/phone       |
+| Icon | Icon for Email Add. | https://www.iconpacks.net/free-icon/mail-142.html |
+| Icon |  Icon for Address   |    https://www.pngegg.com/en/search?q=location    |
